@@ -443,6 +443,9 @@
   .p-0 {
     padding: calc(var(--spacing) * 0);
   }
+  .p-\[2\] {
+    padding: 2;
+  }
   .p-\[5px\] {
     padding: 5px;
   }
@@ -521,6 +524,24 @@
   .pr-\[80px\] {
     padding-right: 80px;
   }
+  .pr-\[90px\] {
+    padding-right: 90px;
+  }
+  .pr-\[100px\] {
+    padding-right: 100px;
+  }
+  .pr-\[120px\] {
+    padding-right: 120px;
+  }
+  .pr-\[130px\] {
+    padding-right: 130px;
+  }
+  .pr-\[150px\] {
+    padding-right: 150px;
+  }
+  .pr-\[180px\] {
+    padding-right: 180px;
+  }
   .pb-\[10px\] {
     padding-bottom: 10px;
   }
@@ -570,6 +591,9 @@
   }
   .text-\[1\] {
     color: 1;
+  }
+  .text-\[25p\] {
+    color: 25p;
   }
   .text-\[white\] {
     color: white;
