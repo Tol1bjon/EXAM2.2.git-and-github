@@ -279,6 +279,12 @@
   .bottom-\[-100px\] {
     bottom: -100px;
   }
+  .bottom-\[-200px\] {
+    bottom: -200px;
+  }
+  .bottom-\[-400px\] {
+    bottom: -400px;
+  }
   .bottom-\[0px\] {
     bottom: 0px;
   }
@@ -339,6 +345,9 @@
   .m-auto {
     margin: auto;
   }
+  .mt-\[20px\] {
+    margin-top: 20px;
+  }
   .mt-\[50px\] {
     margin-top: 50px;
   }
@@ -347,6 +356,12 @@
   }
   .mt-\[200px\] {
     margin-top: 200px;
+  }
+  .mt-\[300px\] {
+    margin-top: 300px;
+  }
+  .mt-\[500px\] {
+    margin-top: 500px;
   }
   .flex {
     display: flex;
