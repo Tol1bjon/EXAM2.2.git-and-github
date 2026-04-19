@@ -256,6 +256,12 @@
   .w-\[100\%\] {
     width: 100%;
   }
+  .max-w-\[120\] {
+    max-width: 120;
+  }
+  .max-w-\[120px\] {
+    max-width: 120px;
+  }
   .max-w-\[1200px\] {
     max-width: 1200px;
   }
@@ -264,6 +270,9 @@
   }
   .resize {
     resize: both;
+  }
+  .list-disc {
+    list-style-type: disc;
   }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -291,6 +300,9 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .gap-0 {
+    gap: calc(var(--spacing) * 0);
   }
   .gap-\[0px\] {
     gap: 0px;
@@ -477,8 +489,23 @@
   .py-\[70px\] {
     padding-block: 70px;
   }
+  .pr-\[50px\] {
+    padding-right: 50px;
+  }
+  .pr-\[60px\] {
+    padding-right: 60px;
+  }
+  .pr-\[70px\] {
+    padding-right: 70px;
+  }
+  .pr-\[80px\] {
+    padding-right: 80px;
+  }
   .pb-\[10px\] {
     padding-bottom: 10px;
+  }
+  .pl-6 {
+    padding-left: calc(var(--spacing) * 6);
   }
   .text-\[15px\] {
     font-size: 15px;
@@ -494,6 +521,12 @@
   }
   .text-\[22px\] {
     font-size: 22px;
+  }
+  .text-\[25px\] {
+    font-size: 25px;
+  }
+  .text-\[35px\] {
+    font-size: 35px;
   }
   .text-\[50px\] {
     font-size: 50px;
@@ -608,6 +641,11 @@
   .lg\:pr-\[130px\] {
     @media (width >= 64rem) {
       padding-right: 130px;
+    }
+  }
+  .lg\:text-\[50px\] {
+    @media (width >= 64rem) {
+      font-size: 50px;
     }
   }
 }
